@@ -1,5 +1,5 @@
 import pandas as pd
-
+'''
 results = pd.DataFrame()
 
 list_states = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL',
@@ -19,12 +19,25 @@ for yr in range(1974,2023):
     except:
         print(f'No results for {yr}.')
 
-results['Country'] = results['State']
-
+results['Country'] = results['State'] # adds column for country
 for i in range(results.shape[0]):
     if results['State'].iloc[i] in list_states: # checks if a US state
         results['Country'].iloc[i] = 'USA' # adds country of USA
     else:
-        results['State'].iloc[i] = None # removes state value
+        results['State'].iloc[i] = None # removes state value if not in US
 
 results.to_csv('data/results.csv', index = False)
+'''
+
+weather = pd.read_csv('data/raw/wser_weather.csv')
+
+month_map = {'june':6, 'June':6, 'Jun':6, 'Jul':7, 'Aug':8}
+weather[['day','month','year']] = weather['Date'].str.split('-', expand = True)
+weather['month'] = weather['month'].replace(month_map)
+
+print(weather[['year','month','day']])
+
+
+weather['Date'] = pd.to_datetime(weather[['year','month','day']])
+
+#summary = pd.read_csv('data/raw/wser_summary.csv')
