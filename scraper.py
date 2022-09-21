@@ -30,3 +30,6 @@ for yr in range(1974,2023):
         get_results(url, outfile)
     except:
         print(f'No results found for {yr}.')
+
+get_results('https://www.wser.org/results/', 'data/wser_summary.csv')
+get_results('https://www.wser.org/weather/', 'data/wser_weather.csv')
