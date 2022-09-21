@@ -1,5 +1,5 @@
 import pandas as pd
-'''
+
 results = pd.DataFrame()
 
 list_states = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL',
@@ -27,17 +27,16 @@ for i in range(results.shape[0]):
         results['State'].iloc[i] = None # removes state value if not in US
 
 results.to_csv('data/results.csv', index = False)
-'''
 
 weather = pd.read_csv('data/raw/wser_weather.csv')
 
-month_map = {'june':6, 'June':6, 'Jun':6, 'Jul':7, 'Aug':8}
-weather[['day','month','year']] = weather['Date'].str.split('-', expand = True)
-weather['month'] = weather['month'].replace(month_map)
+weather[['day','month','year']] = weather['Date'].str.split('-', expand = True) # split date into separate columns
+weather['month'] = weather['month'].replace({'june':6, 'June':6, 'Jun':6, 'Jul':7, 'Aug':8}) # replace month strings with ints
+weather[['day','month','year']] = weather[['day','month','year']].astype('int')
+weather['year'] = weather['year'].apply(lambda x: x+2000 if x<23 else x + 1900)# change to 4 digit years
 
-print(weather[['year','month','day']])
+weather['Date'] = pd.to_datetime(weather[['year','month','day']]) # corrects date column to reformatted date
+weather = weather.drop(['day','month','year'], axis = 1) # removes day,month,year columns
 
-
-weather['Date'] = pd.to_datetime(weather[['year','month','day']])
-
-#summary = pd.read_csv('data/raw/wser_summary.csv')
+weather['Finish %'] = weather['Finish %'].str.replace('%','') # remove % from finish percentage col
+weather.to_csv('data/weather.csv', index = False)
