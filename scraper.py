@@ -1,12 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-import pycountry
 
-list_states = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL',
-               'IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE',
-               'NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD',
-               'TN','TX','UT','VT','VA','WA','WV','WI','WY']
 col_names = {'First' : 'First Name', 'Last' : 'Last Name', 'State or Country':'State/Country'}
 
 
@@ -33,10 +28,10 @@ def get_results(url, outfile):
 for yr in range(1974,2023):
     try:
         url = f'https://www.wser.org/results/{yr}-results/'
-        outfile = f'data/wser_{yr}.csv'
+        outfile = f'data/raw/wser_{yr}.csv'
         get_results(url, outfile)
     except:
         print(f'No results found for {yr}.')
 
-get_results('https://www.wser.org/results/', 'data/wser_summary.csv')
-get_results('https://www.wser.org/weather/', 'data/wser_weather.csv')
+get_results('https://www.wser.org/results/', 'data/raw/wser_summary.csv')
+get_results('https://www.wser.org/weather/', 'data/raw/wser_weather.csv')
