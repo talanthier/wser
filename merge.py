@@ -10,6 +10,7 @@ list_states = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID',
 for yr in range(1974,2023):
     try:
         temp_df = pd.read_csv(f'data/raw/wser_{yr}.csv') 
+        temp_df = temp_df.rename(columns = {'State/Country':'State'})
         if yr == 1990:
         	temp_df = temp_df.iloc[:,:-1] # remove last col from 1990 (column indicated reversed DQ decision)
         	print(temp_df.columns)
@@ -18,15 +19,12 @@ for yr in range(1974,2023):
     except:
         print(f'No results for {yr}.')
 
-print(results.columns)
-
-'''
-results = results.rename(columns = {'State/Country' : 'State'})
 results['Country'] = results['State']
+
 for i in range(results.shape[0]):
     if results['State'].iloc[i] in list_states: # checks if a US state
         results['Country'].iloc[i] = 'USA' # adds country of USA
     else:
         results['State'].iloc[i] = None # removes state value
-'''
+
 results.to_csv('data/results.csv', index = False)

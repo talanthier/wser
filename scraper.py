@@ -22,7 +22,7 @@ def get_results(url, outfile):
             list_vals = row.find_all('td')
             row_vals = ['']*num_cols
             for i,val in enumerate(list_vals):
-                row_vals[i] = val.string 
+                row_vals[i] = str(val.string).rstrip()
             writer.writerow(row_vals) # writes row values to file
 
 for yr in range(1974,2023):
