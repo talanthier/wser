@@ -1,9 +1,9 @@
 Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 1,23:42,Ainsleigh,Gordy,M,26.0,CA,1974,,,USA
-1,24:30,"Ken ""Cowman""",Shirk,M,,,1976,,,None
-1,22:57:00,Andy,Gonzales,M,22.0,,1977,,,None
-2,28:36:00,Peter,Mattei,M,53.0,,1977,,,None
-2,28:36:00,Ralph,Paffenbarger,M,54.0,,1977,,,None
+1,24:30,"Ken ""Cowman""",Shirk,M,,,1976,,,
+1,22:57:00,Andy,Gonzales,M,22.0,,1977,,,
+2,28:36:00,Peter,Mattei,M,53.0,,1977,,,
+2,28:36:00,Ralph,Paffenbarger,M,54.0,,1977,,,
 1,18:50:00,Andy,Gonzales,M,23.0,,1978,,,
 2,19:48:00,Bob,Bunnell,M,27.0,,1978,,,
 3,19:49:00,John,Cappis,M,36.0,,1978,,,
@@ -233,7 +233,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 101,28:29:48,Dale,Sutton,M,40,,1980,,,
 102,28:30:44,Vincent,Devlin,M,42,,1980,,,
 103,28:31:39,Michael,Levin,M,37,,1980,,,
-104,28:35:06,Jim,Edmundson,M,None,,1980,,,
+104,28:35:06,Jim,Edmundson,M,,,1980,,,
 105,28:37:45,Dominic,Debenedetti,M,38,,1980,,,
 106,28:42:09,Eric,Perlman,M,29,,1980,,,
 107,28:44:47,Larry,Gibbs,M,38,,1980,,,
@@ -1046,7 +1046,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 22,20:55:36,Richard,Provost,M,39,,1985,,,
 23,21:03:56,Dana,Gard,M,40,,1985,,,
 24,21:05:00,David,Innes,M,37,,1985,,,
-25,21:10:10,Gregory,Franklin,M,None,,1985,,,
+25,21:10:10,Gregory,Franklin,M,,,1985,,,
 26,21:14:34,Edward,Lujan,M,46,,1985,,,
 27,21:17:23,Eric,Ianacone,M,38,,1985,,,
 28,21:23:37,Rob,Volkenand,M,54,,1985,,,
@@ -1077,7 +1077,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 53,22:41:37,Michael,Callen,M,34,,1985,,,
 54,22:41:45,Lee,Roberts,M,32,,1985,,,
 55,22:46:24,Chris,Cole,M,22,,1985,,,
-56,22:48:07,Wes,Kesenich,M,None,,1985,,,
+56,22:48:07,Wes,Kesenich,M,,,1985,,,
 57,22:50:56,Larry,Matz,M,37,,1985,,,
 58,22:53:07,John,Kanieski,M,39,,1985,,,
 59,22:56:00,Fred,Nagelschmidt,M,61,,1985,,,
@@ -1086,7 +1086,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 62,23:07:29,Brian,Purcell,M,29,,1985,,,
 63,23:08:53,Mark,Samuelson,M,31,,1985,,,
 64,23:11:44,Bill,Yawn,M,39,,1985,,,
-65,23:16:07,Richard,Crane,M,None,,1985,,,
+65,23:16:07,Richard,Crane,M,,,1985,,,
 66,23:18:14,Gordy,Ainsleigh,M,37,,1985,,,
 67,23:19:01,Chuck,Frame,M,42,,1985,,,
 68,23:19:20,Bob,Hamilton,M,28,,1985,,,
@@ -1096,13 +1096,13 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 72,23:22:57,Patrick,Kemp,M,37,,1985,,,
 73,23:23:34,Bruce,Mauldin,M,37,,1985,,,
 74,23:24:38,Kevin,Lee,M,21,,1985,,,
-75,23:26:50,Ronny,Christensen,M,None,,1985,,,
+75,23:26:50,Ronny,Christensen,M,,,1985,,,
 76,23:32:14,David,Calderon,M,25,,1985,,,
 77,23:33:20,Christopher,Hall,M,37,,1985,,,
-78,23:34:24,Tahafumi,Hamabata,M,None,,1985,,,
+78,23:34:24,Tahafumi,Hamabata,M,,,1985,,,
 79,23:34:57,David,Black,M,34,,1985,,,
 80,23:35:25,James,Clover,M,41,,1985,,,
-81,23:38:15,Duane,Purdue,M,None,,1985,,,
+81,23:38:15,Duane,Purdue,M,,,1985,,,
 82,23:38:51,Janice,Levet,F,34,,1985,,,
 83,23:41:10,Rene,Casteran,M,37,,1985,,,
 84,23:41:16,Ronald,Shaw,M,32,,1985,,,
@@ -1115,8 +1115,8 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 91,23:45:06,Cheryl,Clanton,F,36,,1985,,,
 92,23:45:41,Mary,Hammes,F,25,,1985,,,
 93,23:47:02,Roger,Sobsey,M,34,,1985,,,
-94,23:50:34,H,Maherns,M,None,,1985,,,
-95,23:53:32,K,Braun,M,None,,1985,,,
+94,23:50:34,H,Maherns,M,,,1985,,,
+95,23:53:32,K,Braun,M,,,1985,,,
 96,23:54:02,Tommie,Jackson,M,33,,1985,,,
 97,23:55:35,Richard E,Sitter Jr,M,46,,1985,,,
 98,23:55:39,Jon,Brown,M,33,,1985,,,
@@ -1145,8 +1145,8 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 121,27:22:41,Norrie,Williamson,M,31,,1985,,,
 122,27:27:56,Steve,March,M,39,,1985,,,
 123,27:33:36,Tony,Rossmann,M,44,,1985,,,
-124,27:39:00,Dennis,Chistopherson,M,None,,1985,,,
-125,27:53:06,Betty,Brasgala,M,None,,1985,,,
+124,27:39:00,Dennis,Chistopherson,M,,,1985,,,
+125,27:53:06,Betty,Brasgala,M,,,1985,,,
 126,27:54:53,Larry,Wyatt,M,35,,1985,,,
 127,28:02:27,Edward,Weadock,M,53,,1985,,,
 128,28:05:46,Kimberly,Bricker,F,25,,1985,,,
@@ -1167,13 +1167,13 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 143,28:48:58,Jim,Bentson,M,40,,1985,,,
 144,28:50:24,Holiday,Holmes,F,29,,1985,,,
 145,28:50:29,Ed,Fishman,M,62,,1985,,,
-146,28:57:27,Maryann,Buxton,F,None,,1985,,,
+146,28:57:27,Maryann,Buxton,F,,,1985,,,
 147,28:58:47,Tom,Crawford,M,39,,1985,,,
 148,29:02:18,Charles,Liskey,M,29,,1985,,,
 149,29:04:10,William,Smith,M,50,,1985,,,
 150,29:11:14,Keith,Kehn,M,33,,1985,,,
 151,29:24:10,John,Squires,M,53,,1985,,,
-152,29:29:52,W B,White,M,None,,1985,,,
+152,29:29:52,W B,White,M,,,1985,,,
 153,29:35:17,Jon,Griffin,M,46,,1985,,,
 154,29:38:01,Bob,Sanchez,M,46,,1985,,,
 155,29:40:12,Tj,Key,M,41,,1985,,,
@@ -1181,7 +1181,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 157,29:46:40,R,Kayen,M,26,,1985,,,
 158,29:50:31,Wellington,Henderson,M,53,,1985,,,
 159,29:51:12,Helen,Klein,F,62,,1985,,,
-160,29:52:49,Werner,Perchtold,M,None,,1985,,,
+160,29:52:49,Werner,Perchtold,M,,,1985,,,
 161,29:54:52,Terry,Cammack,F,38,,1985,,,
 161,29:54:52,Stephen,Gaal,M,51,,1985,,,
 163,30:00:00,George,Peavy,M,54,,1985,,,
@@ -5400,7 +5400,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 11,18:46:26,Craig,Thornley,M,40,OR,2004,397,Eugene,USA
 12,18:54:24,Tim,Twietmeyer,M,45,CA,2004,M5,Auburn,USA
 13,19:03:21,Kevin,Sawchuk,M,38,CA,2004,34,Alamo,USA
-14,19:08:13,Simon,Mtuy,M,32,,2004,24,None,Tanzania
+14,19:08:13,Simon,Mtuy,M,32,,2004,24,,Tanzania
 15,19:09:13,Todd,Holmes,M,48,CO,2004,208,Lakewood,USA
 16,19:38:54,Rick,Simonsen,M,43,CA,2004,18,El Dorado Hills,USA
 17,19:42:40,Luanne,Park,F,43,CA,2004,F3,Redding,USA
@@ -5462,7 +5462,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 73,23:36:24,Gabor,Kozinc,M,41,CA,2004,369,Pasadena,USA
 74,23:36:42,Terri,Schneider,F,42,CA,2004,353,Aptos,USA
 75,23:37:04,William,Ramsey,M,51,CA,2004,329,Aliso Viejo,USA
-76,23:38:22,Lars,Saetran,M,51,,2004,345,None,Norway
+76,23:38:22,Lars,Saetran,M,51,,2004,345,,Norway
 77,23:38:27,Frank,Bozanich,M,60,NV,2004,60,Sparks,USA
 78,23:41:23,Lawrence,Visak,M,48,CA,2004,408,Concord,USA
 79,23:44:23,Marc,Sanderson,M,33,UT,2004,347,Pleasant Grove,USA
@@ -6443,7 +6443,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 248,29:37:23,Ralph E.,Graf,M,58,WI,2007,198,Oconomowoc,USA
 249,29:37:23,Julie,Treder,F,31,WI,2007,402,St. Francis,USA
 250,29:37:44,Christine,Flaherty,F,54,CA,2007,184,Sacramento,USA
-251,29:38:44,Jan,Soderkvist,M,47,,2007,378,None,SWE
+251,29:38:44,Jan,Soderkvist,M,47,,2007,378,,SWE
 252,29:38:59,Kathy,Martin,F,57,CA,2007,286,Cool,USA
 253,29:39:09,Tim,Looney,M,45,MI,2007,276,Ann Arbor,USA
 254,29:39:54,Xy,Weiss,F,46,CA,2007,419,Villa Park,USA
@@ -6463,9 +6463,9 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 268,29:55:24,Donald,Mukai,M,58,WA,2007,311,Bellevue,USA
 269,29:56:35,Soon,Gaal,F,59,CA,2007,191,Stockton,USA
 270,29:57:38,Karsten,Solheim,M,70,AZ,2007,70,Glendale,USA
-None,30:01:07,Terry G.,Rhodes,F,51,NV,2007,51,Reno,USA
-None,30:13:00,Marco,Denson,M,42,CA,2007,159,Pleasanton,USA
-None,30:13:00,Marianne,Paulson,F,43,CA,2007,325,San Jose,USA
+,30:01:07,Terry G.,Rhodes,F,51,NV,2007,51,Reno,USA
+,30:13:00,Marco,Denson,M,42,CA,2007,159,Pleasanton,USA
+,30:13:00,Marianne,Paulson,F,43,CA,2007,325,San Jose,USA
 1,16:24:55,Hal,Koerner,M,33,OR,2009,M1,Ashland,USA
 2,16:52:06,Tsuyoshi,Kaburagi,M,40,,2009,279,Takasaki,Japan
 3,16:54:26,Jez,Bragg,M,28,,2009,113,Warwick,UK
@@ -6704,11 +6704,11 @@ None,30:13:00,Marianne,Paulson,F,43,CA,2007,325,San Jose,USA
 236,29:52:31,Mylinh,Nguyen,F,50,CA,2009,340,Milpitas,USA
 237,29:53:00,Christine,Miller,F,50,CA,2009,328,Sunnyvale,USA
 238,29:55:20,Gerald,Frost,M,53,MO,2009,220,St. Louis,USA
-None,30:25:00,Allan,Holtz,M,59,MN,2009,259,Oakdale,USA
-None,30:37:00,Andrew,Mathews,M,47,FL,2009,311,Tampa,USA
+,30:25:00,Allan,Holtz,M,59,MN,2009,259,Oakdale,USA
+,30:37:00,Andrew,Mathews,M,47,FL,2009,311,Tampa,USA
 1,15:07:04,Geoff,Roes,M,34,AK,2010,11,Douglas,USA
 2,15:13:52,Anton,Krupicka,M,26,CO,2010,18,Boulder,USA
-3,16:04:50,Kilian,Jornet,M,22,,2010,35,None,Spain
+3,16:04:50,Kilian,Jornet,M,22,,2010,35,,Spain
 4,16:05:56,Nick,Clark,M,36,CO,2010,147,Fort collins,USA
 5,16:55:17,Zachariah,Miller,M,34,MT,2010,M6,Bozeman,USA
 6,17:06:20,Gary,Robbins,M,33,,2010,23,North Vancouver,BC
@@ -9374,7 +9374,7 @@ None,30:37:00,Andrew,Mathews,M,47,FL,2009,311,Tampa,USA
 58,22:00:39,Nathaniel,Couture,M,39,,2019,142,Fredericton,NB
 59,22:08:51,Ray,Sanchez,M,52,CA,2019,135,Sacramento,USA
 60,22:09:26,Thomas,Robertshaw,M,35,,2019,299,Hong Kong,HKG
-61,22:12:03,Carsten,Drilling,M,46,,2019,162,None,CHE
+61,22:12:03,Carsten,Drilling,M,46,,2019,162,,CHE
 62,22:17:28,Dan,Wallis,M,47,NV,2019,349,Reno,USA
 63,22:22:40,Dion,Leonard,M,44,,2019,241,Chamonix,AUS
 64,22:26:10,Eric,Toschi,M,50,CA,2019,339,Pleasanton,USA

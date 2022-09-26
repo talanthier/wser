@@ -26,6 +26,8 @@ for i in range(results.shape[0]):
     else:
         results['State'].iloc[i] = None # removes state value if not in US
 
+results = results.replace({'None':'','none':''})
+
 results.to_csv('data/results.csv', index = False)
 
 weather = pd.read_csv('data/raw/wser_weather.csv')
