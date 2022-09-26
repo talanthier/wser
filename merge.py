@@ -26,7 +26,8 @@ for i in range(results.shape[0]):
     else:
         results['State'].iloc[i] = None # removes state value if not in US
 
-results = results.replace({'None':'','none':''})
+results = results.replace({'None':'','none':''}) 
+results['Country'] = results['Country'].str.replace(',','') 
 
 results.to_csv('data/results.csv', index = False)
 
