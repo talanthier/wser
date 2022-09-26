@@ -6514,7 +6514,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 46,22:54:14,Neil M.,Olsen,M,41,OR,2009,70,Central Point,USA
 47,22:55:50,Jon,Kroll,M,36,CA,2009,256,Foster City,USA
 48,23:02:28,A'a 'Pu 'u,Kiddoo,M,34,CA,2009,281,Bishop,USA
-49,23:07:20,Gary,Robbins,M,32,,2009,26,North Vancouver,"BC, Canada"
+49,23:07:20,Gary,Robbins,M,32,,2009,26,North Vancouver,BC Canada
 50,23:07:52,Chris,Rowe,M,39,CA,2009,373,Newcastle,USA
 51,23:10:26,Benjamin,Berkowitz,M,26,CA,2009,43,Los Angeles,USA
 52,23:11:31,Elizabeth,Vitalis,F,44,CA,2009,80,Livermore,USA
@@ -6528,7 +6528,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 60,23:32:06,Larry,Stephens,M,53,OR,2009,395,Portland,USA
 61,23:34:12,Matthew,Keyes,M,35,CA,2009,35,Auburn,USA
 62,23:35:06,Ted,Knudsen,M,40,CA,2009,283,San Rafael,USA
-63,23:36:31,Jeff,Trigg,M,39,,2009,412,Vancouver,"BC, Canada"
+63,23:36:31,Jeff,Trigg,M,39,,2009,412,Vancouver,BC Canada
 64,23:37:14,Jochen,Horn,M,42,CA,2009,261,San Francisco,USA
 65,23:37:15,Jamie,Frink,F,36,CA,2009,219,Folsom,USA
 66,23:38:40,Robert,Cain,M,55,OR,2009,157,Ashland,USA
@@ -6580,7 +6580,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 112,26:52:12,Leonardo,Soresi,M,36,,2009,36,Spilimbergo,Italy
 113,26:53:51,Lori,Lebel,F,36,MA,2009,293,Danvers,USA
 114,27:00:40,Charley,Jones,M,37,CA,2009,260,Folsom,USA
-115,27:03:55,Shawn,Wallich,M,45,,2009,422,Kaleden,"BC, Canada"
+115,27:03:55,Shawn,Wallich,M,45,,2009,422,Kaleden,BC Canada
 116,27:08:43,Nancy,March,F,62,CA,2009,308,Cool,USA
 117,27:09:47,Michael,Huff,M,42,VA,2009,262,Fairfax,USA
 118,27:12:59,Stacey,Bunton,F,46,OR,2009,153,Tigard,USA
@@ -6604,7 +6604,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 136,27:54:29,Mike,Sweeney,M,54,CA,2009,54,San Rafael,USA
 137,27:56:29,Diana,Lundy,F,55,CA,2009,55,Cool,USA
 138,27:57:26,Gary,Wang,M,41,CA,2009,423,Corte Madera,USA
-139,27:58:25,Chad,Hyson,M,38,,2009,267,Vancouver,"BC, Canada"
+139,27:58:25,Chad,Hyson,M,38,,2009,267,Vancouver,BC Canada
 140,28:02:09,Casey,Harney,M,52,NV,2009,240,Henderson,USA
 141,28:02:53,Jeff,LaBossiere,M,40,VT,2009,287,Westford,USA
 142,28:05:53,Greg,Thompson,M,41,NJ,2009,410,Skillman,USA
@@ -7051,13 +7051,13 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 15,17:19:14,Mark,Lantz,M,45,CA,2011,256,Gold River,USA
 16,17:38:00,Brett,Rivers,M,29,CA,2011,322,San Francisco,USA
 17,17:45:35,Jon,Lawler,M,47,TN,2011,259,Knoxville,USA
-18,17:55:29,Ellie,Greenwood,F,32,,2011,20,Banff,"AB, Canada"
+18,17:55:29,Ellie,Greenwood,F,32,,2011,20,Banff,AB Canada
 19,18:01:12,David,La Duc,M,41,CA,2011,183,Oakland,USA
 20,18:12:28,Chris,Reed,M,38,PA,2011,319,Allentown,USA
 21,18:15:48,Karl,Hoagland,M,46,CA,2011,14,Fairfax,USA
 22,18:17:34,Kami,Semick,F,44,OR,2011,26,Bend,USA
 23,18:17:39,Nikki,Kimball,F,40,MT,2011,F3,Bozeman,USA
-24,18:22:15,Tracy,Garneau,F,42,,2011,F1,Vernon,"BC, Canada"
+24,18:22:15,Tracy,Garneau,F,42,,2011,F1,Vernon,BC Canada
 25,18:37:17,Rory,Bosio,F,26,CA,2011,F4,Soda Springs,USA
 26,18:45:25,Aliza,Lapierre,F,31,VT,2011,24,Williston,USA
 27,18:45:47,Chris,Calzetta,M,29,CA,2011,248,Monterey,USA
@@ -7079,9 +7079,9 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 43,20:11:41,Andrew,Vize,M,30,,2011,382,Sydney,Australia
 44,20:29:26,Shaun,Pope,M,22,OH,2011,32,Hudson,USA
 45,20:35:38,Eric,Toschi,M,42,CA,2011,371,Pleasanton,USA
-46,20:37:18,David,Papineau,M,42,,2011,303,Vancouver,"BC, Canada"
+46,20:37:18,David,Papineau,M,42,,2011,303,Vancouver,BC Canada
 47,20:40:48,Pam,Smith,F,36,OR,2011,F10,Salem,USA
-48,20:42:12,Mike,Palichuk,M,43,,2011,302,Langley,"BC, Canada"
+48,20:42:12,Mike,Palichuk,M,43,,2011,302,Langley,BC Canada
 49,20:44:16,Kevin,Rumon,M,50,CA,2011,336,San Rafael,USA
 50,20:44:50,Helen,Cospolich,F,34,CO,2011,151,Breckenridge,USA
 51,20:47:25,Michael,Adams,M,41,TX,2011,76,Temple,USA
@@ -7106,7 +7106,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 70,21:55:24,Wayne,Rancourt,M,48,ID,2011,315,Boise,USA
 71,21:55:32,David,Easa,M,36,CA,2011,173,Encinitas,USA
 72,21:56:53,Jeason,Murphy,M,31,WA,2011,143,Suquamish,USA
-73,22:01:56,Joe,Huising,M,38,,2011,228,Edmonton,"AB, Canada"
+73,22:01:56,Joe,Huising,M,38,,2011,228,Edmonton,AB Canada
 74,22:11:19,Scott,Mills,M,60,CA,2011,282,Oceanside,USA
 75,22:16:28,Beth,Cardelli,F,31,,2011,130,Berowra Heights,Australia
 76,22:16:57,Ron,Farkash,M,43,MA,2011,179,Plainville,USA
@@ -7123,7 +7123,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 87,22:54:41,Matthew,Davenport,M,33,MA,2011,161,Framingham,USA
 88,23:07:11,Jill,Perry,F,40,NY,2011,308,Manlius,USA
 89,23:08:21,Alex,McDaniel,M,33,CT,2011,274,New Haven,USA
-90,23:08:25,Chad,Hyson,M,40,,2011,233,Vancouver,"BC, Canada"
+90,23:08:25,Chad,Hyson,M,40,,2011,233,Vancouver,BC Canada
 91,23:08:41,Franz,Dill,M,35,CA,2011,166,La Honda,USA
 92,23:09:37,Joshua,Kennedy,M,39,AL,2011,242,Big Cove,USA
 93,23:09:51,Charles,Wickersham,M,39,CA,2011,522,Modesto,USA
@@ -7140,7 +7140,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 104,23:28:54,Dan,Decker,M,49,CA,2011,163,Los Gatos,USA
 105,23:30:14,Phil,Sheridan,M,54,KS,2011,351,Ellsworth,USA
 106,23:32:19,Katie,Murphy,F,28,CA,2011,316,San Ramon,USA
-107,23:32:45,David,Crerar,M,42,,2011,155,North Vancouver,"BC, Canada"
+107,23:32:45,David,Crerar,M,42,,2011,155,North Vancouver,BC Canada
 108,23:36:46,Dan,Brenden,M,60,AZ,2011,73,Phoenix,USA
 109,23:37:40,Craig,Bronstein,M,55,CA,2011,115,La Mirada,USA
 110,23:37:58,Yosuke,Murase,M,38,MD,2011,287,Bethesda,USA
@@ -7159,7 +7159,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 123,23:54:44,Monica,Ochs,F,42,WA,2011,296,Anacortes,USA
 124,23:55:06,Ted,Nunes,M,34,CA,2011,294,Visalia,USA
 125,23:59:44,Elizabeth,Carrion,F,35,NJ,2011,133,Fair Lawn,USA
-126,24:21:18,Wayne,Gaudet,M,54,,2011,54,Okotoks,"AB, Canada"
+126,24:21:18,Wayne,Gaudet,M,54,,2011,54,Okotoks,AB Canada
 127,24:30:45,Bill,Thomas,M,54,WA,2011,365,Marysville,USA
 128,24:37:50,Angie,Pozzi,F,52,CA,2011,252,Granite Bay,USA
 129,24:50:39,Rick,Gaston,M,39,CA,2011,196,San Francisco,USA
@@ -7167,7 +7167,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 131,24:56:30,Dan,Rosenberg,M,33,NJ,2011,329,Collingswood,USA
 132,24:58:11,Rich,Ainley,M,36,,2011,78,Manchester,Great Britain
 133,25:00:31,Giovanni Battista,Torelli,M,56,,2011,111,Roma,Italy
-134,25:10:52,Emmanuel,Ronchin,M,34,,2011,327,Scarborough,"ON, Canada"
+134,25:10:52,Emmanuel,Ronchin,M,34,,2011,327,Scarborough,ON Canada
 135,25:19:34,Jeff,Wright,M,49,WA,2011,49,Burien,USA
 136,25:20:45,Anita,Ortiz,F,47,CO,2011,22,Eagle,USA
 137,25:25:15,Robin,Cameron,F,51,,2011,128,Sydney,Australia
@@ -7192,7 +7192,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 156,26:08:55,Luanne,Park,F,50,CA,2011,31,Redding,USA
 157,26:09:58,Craig,Sowash,M,50,OR,2011,355,Newberg,USA
 158,26:10:59,Caroline,Pivetta,F,36,,2011,312,Cheltenham,Australia
-159,26:11:07,Brenda,Williams,F,47,,2011,395,Banff,"AB, Canada"
+159,26:11:07,Brenda,Williams,F,47,,2011,395,Banff,AB Canada
 160,26:13:03,Gary,Horn,M,54,TX,2011,225,Kingwood,USA
 161,26:18:09,Jeff,Gleason,M,53,PA,2011,59,Wexford,USA
 162,26:18:24,Diann,Boyle,F,50,CA,2011,120,Pleasanton,USA
@@ -7236,7 +7236,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 200,27:32:02,Christopher,Koch,M,29,MN,2011,246,Rochester,USA
 201,27:33:10,George,Peterka,M,51,AR,2011,309,Hot Springs,USA
 202,27:34:10,Dominic,Guinta,M,41,IL,2011,220,Lake Zurich,USA
-203,27:36:04,Angela,Pierotti,F,33,,2011,113,Calgary,"AB, Canada"
+203,27:36:04,Angela,Pierotti,F,33,,2011,113,Calgary,AB Canada
 204,27:37:19,Yves,Hansel,M,47,CA,2011,267,Walnut Creek,USA
 205,27:38:36,Craig,Norquist,M,44,AZ,2011,293,Paradise Valley,USA
 206,27:39:28,James,Crowe,M,49,TN,2011,158,Nashville,USA
@@ -7290,7 +7290,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 254,28:48:26,Stan,Kososki,M,31,CA,2011,247,Rocklin,USA
 255,28:51:03,Olivier,Geissler,M,39,,2011,197,Nyon,Switzerland
 256,28:56:05,Scott,Warr,M,44,CA,2011,385,Roseville,USA
-257,28:56:09,David,Collins,M,59,,2011,144,Burlington,"ON, Canada"
+257,28:56:09,David,Collins,M,59,,2011,144,Burlington,ON Canada
 258,29:00:28,John,Feeney,M,51,CA,2011,181,West Sacramento,USA
 259,29:03:22,Michael,Ryan,M,34,NY,2011,340,Ny,USA
 260,29:03:47,Sam,Landry,M,50,LA,2011,255,New Orleans,USA
@@ -7314,7 +7314,7 @@ Place,Time,First Name,Last Name,Gender,Age,State,Year,Bib,City,Country
 278,29:22:15,Carl,Costas,M,43,CA,2011,152,Roseville,USA
 279,29:22:25,John,Powers,M,48,TX,2011,314,Magnolia,USA
 280,29:23:01,Mike,Gleman,M,63,FL,2011,331,Palm Beach Gardens,USA
-281,29:24:22,Cathy,Hopkins,F,50,,2011,224,St. Catharines,"ON, Canada"
+281,29:24:22,Cathy,Hopkins,F,50,,2011,224,St. Catharines,ON Canada
 282,29:28:13,Judy,Turney,F,44,CA,2011,374,Auburn,USA
 283,29:28:58,Bruce,Falzarano,M,52,CA,2011,177,Roseville,USA
 284,29:29:31,Robert,Cowan,M,50,CA,2011,153,Coto De Caza,USA
