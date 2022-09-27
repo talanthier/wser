@@ -54,4 +54,4 @@ weather.to_csv('data/weather.csv', index = False)
 summary = pd.read_csv('data/raw/wser_summary.csv')
 summary = summary.replace('None','') 
 
-summary.to_csv('data/summary.csv')
+summary.to_csv('data/summary.csv', index = False)
