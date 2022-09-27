@@ -31,15 +31,27 @@ results['Country'] = results['Country'].str.replace(',','')
 
 results.to_csv('data/results.csv', index = False)
 
+
+
+
 weather = pd.read_csv('data/raw/wser_weather.csv')
 
 weather[['day','month','year']] = weather['Date'].str.split('-', expand = True) # split date into separate columns
-weather['month'] = weather['month'].replace({'june':6, 'June':6, 'Jun':6, 'Jul':7, 'Aug':8}) # replace month strings with ints
+weather['month'] = weather['month'].replace({'june':6, 'June':6, 'Jun':6, 'Jul':7, 'Aug':8}) # replace month strings with int
 weather[['day','month','year']] = weather[['day','month','year']].astype('int')
 weather['year'] = weather['year'].apply(lambda x: x+2000 if x<23 else x + 1900)# change to 4 digit years
 
-weather['Date'] = pd.to_datetime(weather[['year','month','day']]) # corrects date column to reformatted date
-weather = weather.drop(['day','month','year'], axis = 1) # removes day,month,year columns
+weather['Date'] = pd.to_datetime(weather[['year','month','day']]) # changes date column to consistent date format
+weather = weather.drop(['month','day'], axis = 1) # removes day,month columns
+weather = weather.replace({'cancelled':'','?':'','None':''}) # replaces missing values with empty string
 
 weather['Finish %'] = weather['Finish %'].str.replace('%','') # remove % from finish percentage col
 weather.to_csv('data/weather.csv', index = False)
+
+
+
+
+summary = pd.read_csv('data/raw/wser_summary.csv')
+summary = summary.replace('None','') 
+
+summary.to_csv('data/summary.csv')
