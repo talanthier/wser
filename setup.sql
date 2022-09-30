@@ -1,5 +1,6 @@
 USE wser;
 
+
 CREATE TABLE results (
 	place int,
     finish_time time,
@@ -17,7 +18,7 @@ LOAD DATA INFILE 'results.csv'
 INTO TABLE results 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS
 (@a, @b, @c, @d,@e,@f,@g,@h,@i,@j,@k) 
 SET place = IF(@a = '', NULL, @a), 
@@ -47,7 +48,7 @@ LOAD DATA INFILE 'weather.csv'
 INTO TABLE weather
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS
 (@a,@b,@c,@d,@e,@f,@g,@h,@i)
 SET start_date = IF(@a = '', NULL, @a),
